@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Office套件安装器</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="word">Microsoft Word</string>
+    <string name="ppt">Microsoft PowerPoint</string>
+    <string name="excel">Microsoft Excel</string>
+    <string name="word_version">版本:16.0.4201.1004</string>
+    <string name="ppt_version">版本:16.0.4201.1004</string>
+    <string name="excel_version">版本:16.0.4201.1004</string>
+    <string name="install">安装</string>
+    <string name="About">关于</string>
+    <string name="SendSmile">发送笑脸</string>
+    <string name="version">版本号:</string>
+    <string name="author">作者:</string>
+    <string name="feedback">问题反馈</string>
+    <string name="like">点个赞</string>
+    <string name="author_email">padeoe@gmail.com</string>
+    <string name="send_email">发送邮件给开发者?</string>
+    <string name="thankyou">已发送，谢谢！^_^</string>
+    <string name="feedback_email_title">Office安装器问题反馈</string>
+    <string name="please_wait">正在写入数据包，请稍候...</string>
+
+</resources>

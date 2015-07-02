@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animateLayoutChanges="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        ></include>
+
+
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/card_view_ppt"
+        card_view:cardElevation="3dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView_ppt"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_powerpoint"
+            />
+        <TextView
+            android:text="@string/ppt"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:text="@string/ppt_version"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/install_ppt"
+            android:text="@string/install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ripple"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/install_color"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true"
+            />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@+id/card_view_ppt"
+        android:id="@+id/card_view_word"
+        card_view:cardElevation="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_word"
+                />
+            <TextView
+                android:text="@string/word"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="150dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="@string/word_version"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/install_word"
+                android:text="@string/install"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ripple"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/install_color"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@+id/card_view_word"
+        android:id="@+id/card_view_excel"
+        card_view:cardElevation="3dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView_excel"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_excel"
+            />
+        <TextView
+            android:text="@string/excel"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <TextView
+            android:text="@string/excel_version"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/install_excel"
+            android:text="@string/install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ripple"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/install_color"
+            android:textSize="16dp"
+            android:layout_alignParentRight="true"
+            />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+<!--    <EditText
+        android:layout_below="@+id/card_view_excel"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/buffersize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />-->
+
+
+</RelativeLayout>

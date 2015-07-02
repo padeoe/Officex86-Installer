@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Office x86 Installer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="word">Microsoft Word</string>
+    <string name="ppt">Microsoft PowerPoint</string>
+    <string name="excel">Microsoft Excel</string>
+    <string name="word_version">version:16.0.4201.1002</string>
+    <string name="ppt_version">version:16.0.3930.1016</string>
+    <string name="excel_version">version:16.0.4201.1002</string>
+    <string name="install">Install</string>
+    <string name="About">About</string>
+    <string name="SendSmile">Send Smile</string>
+    <string name="version">Version:</string>
+    <string name="author">Author:</string>
+    <string name="feedback">Feedback</string>
+    <string name="like">Like</string>
+    <string name="send_email">Send e-mail to developer?</string>
+    <string name="thankyou">Like sent,Thank you!^_^</string>
+    <string name="please_wait">writing data to /Android/obb,please wait...</string>
+    <string name="feedback_email_title">Office Installer Feedback</string>
+    <string name="author_email">padeoe@gmail.com</string>
+</resources>

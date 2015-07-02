@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loginButton">#ffd7dcdb</color>
+    <color name="ColorPrimary">#ff5d91ff</color>
+    <color name="ColorPrimaryDark">#ff587bff</color>
+    <color name="black">#ff010204</color>
+    <color name="white">#fafafafa</color>
+    <color name="install_color">#fa2c5cfa</color>
+    <color name="mayEmailColor">#fa2c5cfa</color>
+
+</resources>
