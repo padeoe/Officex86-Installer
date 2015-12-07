@@ -1,14 +1,13 @@
 <resources>
     <string name="app_name">Office x86 Installer</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="word">Microsoft Word</string>
     <string name="ppt">Microsoft PowerPoint</string>
     <string name="excel">Microsoft Excel</string>
-    <string name="word_version">version:16.0.4201.1002</string>
-    <string name="ppt_version">version:16.0.3930.1016</string>
-    <string name="excel_version">version:16.0.4201.1002</string>
+    <string name="word_version">version:16.0.6027.1014</string>
+    <string name="ppt_version">version:16.0.6027.1014</string>
+    <string name="excel_version">version:16.0.6027.1014</string>
     <string name="install">Install</string>
     <string name="About">About</string>
     <string name="SendSmile">Send Smile</string>
@@ -21,4 +20,9 @@
     <string name="please_wait">writing data to /Android/obb,please wait...</string>
     <string name="feedback_email_title">Office Installer Feedback</string>
     <string name="author_email">padeoe@gmail.com</string>
+    <string name="reinstall">reinstall</string>
+    <string name="update">update</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="app_running_alert">office is running,file can\'t be overwriting,please close office in background fisrt</string>
 </resources>

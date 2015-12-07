@@ -1,16 +1,12 @@
 Office x86 Installer
 ======================
-ÕâÊÇÒ»¸öapk+Êý¾Ý°üµÄ×Ô¶¯°²×°Æ÷£¬ÓëÎ¢ÈíµÄofficeÃ»ÓÐÌ«´ó¹ØÏµ¡£
+è¿™æ˜¯ä¸€ä¸ªapk+æ•°æ®åŒ…çš„è‡ªåŠ¨å®‰è£…å™¨ï¼Œä¸Žå¾®è½¯çš„officeæ²¡æœ‰å¤ªå¤§å…³ç³»ã€‚
 
-ÆðÒòÊÇ£¬officeµÄ°²×¿Æ½°å×¨ÓÃ°æ±¾ºÜ¶àÉè±¸ÎÞ·¨·ÃÎÊGoogle PlayÏÂÔØ£¬¶øËü°²×°ÆðÀ´ÓÖÊÇÓÉapk+.obbÎÄ¼þ¹¹³É£¬ÓëÆÕÍ¨°²×¿³ÌÐò°²×°²»Í¬£¬ºÜ¶àÓÃ»§²¢²»»á£¬Òò´ËÐ´ÁËÒ»¸ö×Ô¶¯°²×°Æ÷¡£
+èµ·å› æ˜¯ï¼Œofficeçš„å®‰å“å¹³æ¿ä¸“ç”¨ç‰ˆæœ¬å¾ˆå¤šè®¾å¤‡æ— æ³•è®¿é—®Google Playä¸‹è½½ï¼Œè€Œå®ƒå®‰è£…èµ·æ¥åˆæ˜¯ç”±apk+.obbæ–‡ä»¶æž„æˆï¼Œä¸Žæ™®é€šå®‰å“ç¨‹åºå®‰è£…ä¸åŒï¼Œå¾ˆå¤šç”¨æˆ·å¹¶ä¸ä¼šï¼Œå› æ­¤å†™äº†ä¸€ä¸ªè‡ªåŠ¨å®‰è£…å™¨ã€‚
 
-<h2>ÊÊÓÃÆ½Ì¨</h2>
-Android 4.4+
+<h2>é€‚ç”¨å¹³å°</h2>
+Android 4.4+,test on Nokia N1 Tablet
 
-<h2>½ØÍ¼</h2>
-<img src="screenshot1.png" width="800" height="1066">
-
-<h2>Ô´ÂëËµÃ÷</h2>
-ÎªÁË¼õÉÙÔ´ÂëÌå»ý£¬Ô´ÂëÖÐÒýÈëµÄÊý¾Ý°üÊÇ¿ÕÎÄ¼þ£¬apkÊÇÒ»¸öËæ±ãÐ´µÄÐ¡³ÌÐò¡£²úÉúµÄ¼ò»¯°æapk³ÌÐòÔÚ[ÔÚ´ËÏÂÔØ](https://raw.githubusercontent.com/padeoe/Officex86-Installer/master/app/app-release.apk)(1018KB)
-Ô´³ÌÐò·¢²¼ÓÚ[Google+ÂÛÌ³](https://plus.google.com/109139169188623039028/posts/gENt2T4xTGS)(304M)£¬ÒÑÓÐÉÏ°ÙÓÃ»§
+<h2>æºç è¯´æ˜Ž</h2>
+ä¸ºäº†å‡å°‘æºç ä½“ç§¯ï¼Œæºç ä¸­å¼•å…¥çš„æ•°æ®åŒ…æ˜¯ç©ºæ–‡ä»¶ï¼Œapkæ˜¯ä¸€ä¸ªéšä¾¿å†™çš„å°ç¨‹åºã€‚
 

@@ -6,9 +6,9 @@
     <string name="word">Microsoft Word</string>
     <string name="ppt">Microsoft PowerPoint</string>
     <string name="excel">Microsoft Excel</string>
-    <string name="word_version">版本:16.0.4201.1004</string>
-    <string name="ppt_version">版本:16.0.4201.1004</string>
-    <string name="excel_version">版本:16.0.4201.1004</string>
+    <string name="word_version">版本:</string>
+    <string name="ppt_version">版本:</string>
+    <string name="excel_version">版本:</string>
     <string name="install">安装</string>
     <string name="About">关于</string>
     <string name="SendSmile">发送笑脸</string>
@@ -21,5 +21,10 @@
     <string name="thankyou">已发送，谢谢！^_^</string>
     <string name="feedback_email_title">Office安装器问题反馈</string>
     <string name="please_wait">正在写入数据包，请稍候...</string>
+    <string name="reinstall">重新安装</string>
+    <string name="update">升级</string>
+    <string name="ok">好的</string>
+    <string name="error">错误</string>
+    <string name="app_running_alert">office正在运行，可能无法覆盖数据包，请手动关闭后台office后重试(在后台卡片中划去或者设置-app-强制停止)</string>
 
 </resources>

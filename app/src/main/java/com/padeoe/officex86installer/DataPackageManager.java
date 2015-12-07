@@ -9,22 +9,24 @@ import java.io.File;
  * Created by Kangkang on 2015/5/22.
  */
 public class DataPackageManager {
-    public static void createFolder(String folderName) {
+    public static File createFolder(String folderName) {
         File folder = new File(folderName);
         boolean success = false;
         //目录不存在，创建目录
         if (!folder.exists()) {
-            success = folder.mkdir();
+            success = folder.mkdirs();
         }
         //目录存在，删除目录及内部文件
         else{
             deleteFolder(folderName);
-            success = folder.mkdir();
+            success = folder.mkdirs();
         }
         if (success) {
             Log.i("TestCreateFolder", "数据包文件夹创建成功");
+            return folder;
         } else {
             Log.i("TestCreateFolder", "数据包文件夹创建失败");
+            return null;
         }
     }
 

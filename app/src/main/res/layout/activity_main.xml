@@ -1,3 +1,8 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:animateLayoutChanges="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -49,6 +54,7 @@
 
             />
         <TextView
+            android:id="@+id/ppt_version"
             android:text="@string/ppt_version"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="150dp"
@@ -67,6 +73,7 @@
             android:textColor="@color/install_color"
             android:textSize="16dp"
             android:layout_alignParentRight="true"
+            android:onClick="install"
             />
         </RelativeLayout>
     </android.support.v7.widget.CardView>
@@ -90,7 +97,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView"
+                android:id="@+id/imageView_word"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
@@ -107,6 +114,7 @@
 
                 />
             <TextView
+                android:id="@+id/word_version"
                 android:text="@string/word_version"
                 android:layout_marginTop="40dp"
                 android:layout_marginLeft="150dp"
@@ -125,77 +133,75 @@
                 android:textColor="@color/install_color"
                 android:textSize="16dp"
                 android:layout_alignParentRight="true"
+                android:onClick="install"
                 />
 
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
 
+
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_below="@+id/card_view_word"
         android:id="@+id/card_view_excel"
         card_view:cardElevation="3dp"
-        android:layout_gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         card_view:cardCornerRadius="4dp">
+
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="100dp" >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView_excel"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/ic_excel"
-            />
-        <TextView
-            android:text="@string/excel"
-            android:layout_marginTop="12dp"
-            android:layout_marginLeft="150dp"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_excel"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_excel"
+                />
+            <TextView
+                android:text="@string/excel"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="150dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-            />
-        <TextView
-            android:text="@string/excel_version"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="150dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-        <Button
-            android:id="@+id/install_excel"
-            android:text="@string/install"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:background="@drawable/ripple"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_marginRight="10dp"
-            android:textColor="@color/install_color"
-            android:textSize="16dp"
-            android:layout_alignParentRight="true"
-            />
+                />
+            <TextView
+                android:id="@+id/excel_version"
+                android:text="@string/excel_version"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/install_excel"
+                android:text="@string/install"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ripple"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/install_color"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:onClick="install"
+                />
+
         </RelativeLayout>
-    </android.support.v7.widget.CardView>
-<!--    <EditText
-        android:layout_below="@+id/card_view_excel"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:id="@+id/buffersize"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text" />-->
 
+    </android.support.v7.widget.CardView>
 
 </RelativeLayout>
+    </ScrollView>

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    buildToolsVersion "23.0.2"
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/LICENSE'
@@ -16,14 +16,14 @@ android {
     defaultConfig {
         applicationId "com.padeoe.officex86installer"
         minSdkVersion 19
-        targetSdkVersion 21
+        targetSdkVersion 22
         versionCode 1
-        versionName "0.3.0"
+        versionName "0.9"
     }
     buildTypes {
         release {
             minifyEnabled true
-            shrinkResources true
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -35,8 +35,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.android.support:cardview-v7:21.0.+'
+    compile 'com.android.support:appcompat-v7:22.1.1'
     compile 'cn.leancloud.android:avoscloud-sdk:v3.3+'
-//    compile 'cn.leancloud.android:avoscloud-statistics:v3.3+@aar'
+    compile 'com.android.support:cardview-v7:22.1.1'
 }
